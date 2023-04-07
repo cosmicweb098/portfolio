@@ -183,4 +183,168 @@ img
 #work_container
 {
     background: #E5E5E5;
+    height: 725px;
+    border-radius: 5px;
+}
+.tittle_heading
+{
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.box
+{
+    width: 370px;
+    height: 346px;
+    background: #FFFFFF;
+    box-shadow: 0px 6.5812px 19.7436px rgba(0, 0, 0, 0.07);
+    border-radius: 19.7436px;
+    padding-top: 10px;
+    margin:5px;
+}
+.tittle_heading h1
+{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    color: #363958;
+    letter-spacing: 5px;
+}
+.tittle_heading h1 span
+{
+    color:#F46060;
+}
+.box_img
+{
+    width: 344px;
+    height: 214px;
+    margin: auto;
+}
+.box_tittle
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #363958;
+    margin: 11px 0px 13px 15px;
+}
+.box_discription
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    margin-left: 15px;
+}
+.portfolio
+{
+    display: flex;
+    justify-content: center;
+}
+.connect
+{
+    height: 500px;
+}
+.work_inquiry
+{
+    width: 906px;
+    height: 225px;
+    background: url(shapes/last.png);
+    background-size: cover;
+    margin: auto;
+    margin-top: 105px;
+}
+.work_button
+{
+    width: 134px;
+    height: 60px;
+    background: linear-gradient(0deg, #FF8063 -28.33%, #F46060 95.83%);
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    margin-top: 9.5%;
+    margin-right: 5%;
+ 
+}
+.work_button a
+{
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+/**
+#connect_contain
+{
+    display: flex;
+    align-items: center;
+}
+**/
+.text
+{
+    margin-top: 100px;
+}
+.text h5
+{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 24px;
+    color: #696871;
+    text-align: center;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+}
+.text h3
+{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #363958;
+}
+.img
+{
+    width: 40px;
+    height: 40px;
+    margin: 2%;
+}
+.icon
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img:nth-child(3)
+{
+    width: 36px;
+    height: 36px;
+}
+.work_inquiry h1
+{
+    font-family: 'Bebas Neue';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 64px;
+    color: #FFFFFF;
+    margin-left: 6%;
+    float: left;
+    padding-top: 87px;
+    letter-spacing: 2px;
 }
